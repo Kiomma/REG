@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+}
+
+.header video {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+}
+
+.content {
+    z-index: 1;
+    width: 100%;
+    color: white;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about {
+    margin-top: 30px;
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+}
+
+.images {
+    border: 2px solid grey;
+    margin-right: 5%;
+    width: 80%;
+    height: 1000px;
+    box-shadow: 0 0 15px grey;
+    background: url('eco.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    float: right;
+    
+}
+
+.decoration {
+    background: url('1.jpg');
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.test {
+    margin-top: 2%;
+    margin-right: 2%;
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+}
+
+.links {
+    margin-top: 1%;
+}
+
+.vk {
+    background: url('vk.svg');
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: cover;
+    margin-top: 5px;
+  }
+
+  .tg {
+	background: url('telegram.svg');
+	width: 25px;
+	height: 25px;
+    display: inline-block;
+    background-size: cover;
+  }
+
+.mail {
+	background: url('mail-ru.svg');
+	width: 25px;
+	height: 25px;
+    display: inline-block;
+    background-size: cover;
+}

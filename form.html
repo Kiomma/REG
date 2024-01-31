@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Форма регистрации</h1>
+         <audio src="haha.mp3" controls>
+         </audio>
+
+         <div class="images"></div>
+         <div class="test">
+         <form action="#" method="get">
+            <fieldset>
+                <legend>Личная информация</legend>
+                <label for="username">Имя</label>
+                <input type="text" name="username" id="username" placeholder="Введите ваше Имя" required tabindex="1">
+                <br>
+                <label for="usermail">Почту</label>
+                <input type="email" name="usermail" id="usermail" placeholder="example@gmail.com" tabindex="2">
+                <br>
+                <label for="password">Пароль</label>
+                <input type="password" name="password" id="password">
+                <br>
+                <label for="age">Дата рождения</label>
+                <input type="date" name="age" id="age">
+                <br>
+                <label for="file">Аватарка</label>
+                <input type="file" name="file" id="file">
+                <br>
+                <p>Ваш пол</p>
+                <label for="radio">Мужской</label>
+                <input type="radio" name="radio" id="radioM">
+                <br>
+                <label for="radio">Женский</label>
+                <input type="radio" name="radio" id="radioW">
+            </fieldset>
+            <fieldset>
+                <legend>Ваши навыки</legend>
+                <p>Ваши Увлечения</p>
+                <label for="it">IT</label>
+                <input type="checkbox" name="int" id="it">
+
+                <label for="it">Спорт</label>
+                <input type="checkbox" name="int" id="sport">
+
+                <label for="it">Видеоигры</label>
+                <input type="checkbox" name="int" id="VG">
+                <br>
+                <label for="another">Другие</label>
+                <textarea name="another" id="another" cols="20" rows="3"></textarea>
+                <br>
+                <label for="skills">Навыки</label>
+                <select name="skills" id="skills" multiple>
+                    <option value="35">JS</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="react">REACT</option>
+                </select>
+            </fieldset>
+
+                <button type="submit">Отправить</button>
+                <button type="reset">Очистить</button>
+           
+           
+        </form>
+    </div>
+    </body>
+</html>
